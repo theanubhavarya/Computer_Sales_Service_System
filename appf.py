@@ -9,7 +9,7 @@ def get_connection_initial():
         return mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Anubhavarya14022007"
+            password="YOUR_MYSQL_PASSWORD"
         )
     except Error as e:
         print(f"Error connecting to MySQL: {e}")
@@ -22,7 +22,7 @@ def get_connection():
         return mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Anubhavarya14022007",
+            password="YOUR_MYSQL_PASSWORD",
             database="ComputerSalesDB"
         )
     except Error as e:
